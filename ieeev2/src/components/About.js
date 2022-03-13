@@ -1,6 +1,6 @@
 import Lottie from "lottie-react";
 import animation from './aboutAnimation.json'
-import { FaStar } from "react-icons/fa";
+
 // import { responsiveFontSizes } from "@material-ui/core";
 const About = () => {
 
@@ -9,28 +9,28 @@ const About = () => {
         width: "80%",
 
     }
-    const responsiveStyle =
-    {
-        width: "65%",
-        marginLeft: "20%"
-    }
+    // const responsiveStyle =
+    // {
+    //     width: "65%",
+    //     marginLeft: "20%"
+    // }
     const textStyle =
     {
         color: "#523891"
         // 523891 #AC70C9"
     }
-    const domains =
-        [
-            'Topic - 1',
-            'Topic - 2',
-            'Topic - 3',
-            'Topic - 4',
-            'Topic - 5',
-            'Topic - 6',
-            'Topic - 7',
-        ]
+    // const domains =
+    //     [
+    //         'Topic - 1',
+    //         'Topic - 2',
+    //         'Topic - 3',
+    //         'Topic - 4',
+    //         'Topic - 5',
+    //         'Topic - 6',
+    //         'Topic - 7',
+    //     ]
     return (
-        <div className="about w-full bg-gray-200">
+        <div className="about w-full bg-gray-200 pb-10 mb-10">
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
 
                 <div className="animation lg:ml-20 lg:mt-20 md:ml-10  " >
@@ -49,15 +49,7 @@ const About = () => {
                         re repellendus? Velit earum voluptates culpa blanditiis quos maxime nam enim! Eum.</p>
 
 
-                    <div style={responsiveStyle} className="bg-gray-100 border-t-4  border-blue-500 domains rounded-2xl w-[40rem] text-left py-10 shadow-lg lg:pl-10 mt-10 sm:w-[22rem] sm:ml-14">
-                        <h1 className="text-center text-2xl md:text-3xl  lg:text-4xl font-bold text-ourBlue uppercase mb-6"><span className="underline">Do</span>mains</h1>
-                        {domains.map((item, key) => {
-                            return <li key={key} className="list-none text-gray-800 text-base m-2 lg:p-2 lg:text-xl ml-6">
-                                <FaStar className="inline" />
-                                {item}
-                            </li>
-                        })}
-                    </div>
+
 
                 </div>
 

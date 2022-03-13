@@ -13,7 +13,7 @@ const Submission = () => {
     return (
         <div className="submit bg-gray-100/60 h-max">
             <hr style={hrStyle} />
-            <div className="content  w-full px-32">
+            <div className="content  w-full px-14">
                 <h1 className="text-center my-6 font-ourFont text-2xl lg:text-4xl animate-bounce underline text-ourBlue lg:mt-14 uppercase">SUBMISSION guidelines</h1>
                 <p>
                     Prospective authors are encouraged to submit papers for evaluation by the Program Committee. All submissions will be peer-reviewed by at least 3 peer reviewers with expertise in the area. This process will result in constructive feedback to the authors br

@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import CallPapers from './components/CallPapers';
 import Speaker from './components/Speaker';
 import Footer from './components/Footer';
+import Domain from './components/Domains';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Nav />
       <Home />
       <About />
+      <Domain />
       <Cmt />
       <CallPapers />
       <Speaker />

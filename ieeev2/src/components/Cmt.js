@@ -47,7 +47,7 @@ const Cmt = () => {
 
             >
                 <div >
-                    <h2 className="text-xl md:text-2xl text-cmtblue lg:text-3xl font-semibold font-ourFont hover:animate-pulse duration-75 uppercase"><span className="underline">TECH</span>iNICAL COMMITTEE</h2><br />
+                    <h2 className="text-xl md:text-2xl text-[#3B82F6] lg:text-3xl font-semibold font-ourFont hover:animate-pulse duration-75 uppercase"><span className="underline">TECH</span>iNICAL COMMITTEE</h2><br />
                     <div className=" grid justify-items-stretch mt-2 text-gray-600 text-center">
                         <div className="grid grid-cols-1 lg:grid-cols-2" >
                             <div>

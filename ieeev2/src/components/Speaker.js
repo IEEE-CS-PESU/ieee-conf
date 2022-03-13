@@ -1,6 +1,6 @@
 import bgpic from '../media/bgPic.png';
 import { useState } from 'react';
-import { logDOM } from '@testing-library/react';
+// import { logDOM } from '@testing-library/react';
 const Speaker = () => {
     const responsiveStyle = {
         marginLeft: "3%"
@@ -28,9 +28,9 @@ const Speaker = () => {
     //screen width hook 
 
     let [screenWidth, setScreenWidth] = useState(1);
-    let [screenHeight, setScreenHeight] = useState(1);
+    // let [screenHeight, setScreenHeight] = useState(1);
     function resize() {
-        setScreenHeight(window.innerHeight);
+        // setScreenHeight(window.innerHeight);
         setScreenWidth(window.innerWidth);
         // console.log(screenWidth);
     }
