@@ -30,7 +30,7 @@ const About = () => {
     //         'Topic - 7',
     //     ]
     return (
-        <div className="about w-full bg-gray-200 pb-10 mb-10">
+        <div className="about w-full bg-gray-200 pb-20 ">
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
 
                 <div className="animation lg:ml-20 lg:mt-20 md:ml-10  " >
