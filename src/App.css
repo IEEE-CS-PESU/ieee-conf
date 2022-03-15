@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.bgg {
+  background: url("media/bgPic2.png") no-repeat center;
+  background-size: cover;
+}
