@@ -23,8 +23,9 @@ const Home = () => {
   // }
 
   const eleStyle = {
-    color: "#111827",
+    color: "black",
   };
+  //111827
 
   return (
     <div className="m-0 h-screen bgg">
@@ -44,9 +45,9 @@ const Home = () => {
         {/* Text To be Filled here  */}
         <div
           style={eleStyle}
-          className="font-ourFont flex flex-col absolute text-center xs:mt-20 sm:mt-14 md:mt-24 lg:mt-48 "
+          className="font-ourFont flex flex-col absolute text-center xs:mt-20 sm:mt-14 md:mt-24 "
         >
-          <h1 className="sm:text-lg md:text-xl lg:text-4xl md:mt-10 sm:mt-9">
+          <h1 className="sm:text-lg md:text-xl lg:text-4xl md:mt-10 sm:mt-9 ">
             IEEE International Conference on Computing, <br /> Communication and
             Power Engineering
           </h1>

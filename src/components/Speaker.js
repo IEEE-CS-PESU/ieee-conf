@@ -1,6 +1,7 @@
 import bgpic from "../media/bgPic.png";
 import { useState } from "react";
 // import { logDOM } from '@testing-library/react';
+import pesu from '../media/pesu.png'
 const Speaker = () => {
   const responsiveStyle = {
     marginLeft: "3%",
@@ -36,7 +37,7 @@ const Speaker = () => {
   window.onresize = resize;
 
   return (
-    <div className="border-t-4 border-blue-300 rounded-2xl">
+    <div className="rounded-2xl">
       <br />
       <div>
         <h1 className="text-blue-700/90 text-center text-4xl font-bold">
@@ -54,7 +55,8 @@ const Speaker = () => {
             style={screenWidth < 1012.4 ? responsiveStyle2 : responsiveStyle21}
             className="text-center overflow-hidden"
           >
-            <img src={bgpic} alt="" />
+            {/* <img src={bgpic} alt="" /> */}
+            <img src={pesu} alt=""/>
           </div>
 
           <div className="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">

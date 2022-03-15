@@ -1,5 +1,5 @@
-import { FaStar } from "react-icons/fa";
 
+import {FaCheckCircle} from 'react-icons/fa';
 const DomainsCompo = (props) => {
   const responsiveStyle = {
     // marginLeft: "10%",
@@ -20,7 +20,7 @@ const DomainsCompo = (props) => {
               key={key}
               className="list-none text-gray-800 text-lg  lg:p-2 lg:text-lg ml-20"
             >
-              <FaStar className="inline" />
+              <FaCheckCircle className="inline mr-3 text-[#0B9400]" />
               {item}
             </li>
           );

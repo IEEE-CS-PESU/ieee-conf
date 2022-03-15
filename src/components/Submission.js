@@ -10,7 +10,7 @@ const Submission = () => {
   };
   return (
     <div className="submit bg-gray-100/60 h-max">
-      <hr style={hrStyle} />
+      <hr />
       <div className="content  w-full px-14">
         <h1 className="text-center my-6 font-ourFont text-2xl lg:text-4xl animate-bounce underline text-ourBlue lg:mt-14 uppercase">
           SUBMISSION guidelines
