@@ -1,5 +1,5 @@
 import DomainsCompo from "./DomainsCompo";
-import netPic from '../media/net.jpg'
+// import netPic from '../media/net.jpg'
 
 const Domain = () => {
 
