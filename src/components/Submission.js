@@ -3,11 +3,11 @@ const Submission = () => {
     fontWeight: "100",
   };
 
-  const hrStyle = {
-    width: "40%",
-    marginLeft: "30%",
-    borderTop: "3px dashed blue ",
-  };
+  // const hrStyle = {
+  //   width: "40%",
+  //   marginLeft: "30%",
+  //   borderTop: "3px dashed blue ",
+  // };
   return (
     <div className="submit bg-gray-100/60 h-max">
       <hr />

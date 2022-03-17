@@ -1,4 +1,4 @@
-import bgpic from "../media/bgPic.png";
+// import bgpic from "../media/bgPic.png";
 import { useState } from "react";
 // import { logDOM } from '@testing-library/react';
 import pesu from '../media/pesu.png'
