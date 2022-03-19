@@ -48,7 +48,7 @@ const Speaker = () => {
       <div
         style={responsiveStyle}
         className="speaker flex m-5  justify-center items-center
-            border-t-2 border-l-2 border-gray-600 rounded-xl drop-shadow-lg"
+             rounded-xl drop-shadow-lg"
       >
         <div className="w-full flex flex-col lg:flex-row pb-4">
           <div
@@ -65,7 +65,7 @@ const Speaker = () => {
                 Can coffee make you a better developer?
               </div>
               <p className="text-gray-700 text-base">
-                Yes it can ...... 😉😜😁🔥🐶 Here we mention all the dets of the
+                Here we mention all the dets of the
                 speaker after the details are given
               </p>
               <p>

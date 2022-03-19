@@ -28,8 +28,8 @@ const Home = () => {
   //111827
 
   return (
-    <div className="m-0 h-screen bgg">
-      <div className="HomeCompo align-middle text-center flex flex-items-center justify-center">
+    <div className="m-0  bgg">
+      <div className="HomeCompo align-middle text-center h-screen">
         {/* <img src={bgpic2} alt="background_Pic" className='opacity-70 w-full' /> */}
 
         {/* Images Here */}
@@ -43,13 +43,18 @@ const Home = () => {
         </div>
 
         {/* Text To be Filled here  */}
+        <div className="flex items-center justify-center h-full relative md:top-[-250px] top-[-150px]">
         <div
           style={eleStyle}
-          className="font-ourFont flex flex-col absolute text-center xs:mt-20 sm:mt-14 md:mt-24 "
+          className="font-ourFont flex flex-col absolute text-center"
         >
-          <h1 className="sm:text-lg md:text-xl lg:text-4xl md:mt-10 sm:mt-9 ">
+          {/* <h1 className="sm:text-lg md:text-xl lg:text-4xl md:mt-10 sm:mt-9 ">
             IEEE International Conference on Computing, <br /> Communication and
             Power Engineering
+          </h1> */}
+          <h1 className="text-3xl md:text-5xl md:mt-10 sm:mt-9 pb-5">
+            IEEE International Conference on Power Engineering, Computing and
+            Communication
           </h1>
           <p className="sm:text-sm md:text-lg lg:text-xl">
             1st International Lorem ipsum dolor sit, amet consectetur
@@ -81,6 +86,7 @@ const Home = () => {
               SUBMIT
             </button>
           </a>
+        </div>
         </div>
       </div>
     </div>

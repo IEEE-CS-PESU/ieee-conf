@@ -18,7 +18,7 @@ function CallPapers() {
                   className=""
                   style={{ width: "70%", height: "70%" }}
                 />
-                ;
+                
               </div>
 
               <div className="col-span-4">
@@ -27,17 +27,17 @@ function CallPapers() {
                   <span className=" underline">Important Dates !</span>
                 </p>
                 <p className="text-gray-800 my-2 font-bold lg:text-lg">
-                  <span className="underline">Paper Submission</span>: September
-                  25th, 2022
+                  <span className="underline">Paper Submission</span>: August
+                  31st, 2022
                   <br />
                   <br />
                   <span className="underline">
                     Notification of Acceptance:
                   </span>{" "}
-                  September 4th, 2022
+                  September 30th, 2022
                   <br />
                   <br />
-                  <span className="underline">Camera Ready:</span> November 8th,
+                  <span className="underline">Camera Ready:</span> October 16th,
                   2022
                 </p>
               </div>

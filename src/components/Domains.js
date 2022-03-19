@@ -5,7 +5,7 @@ import DomainsCompo from "./DomainsCompo";
 const Domain = () => {
   const domainsObject = [
     {
-      title: "Computer Science",
+      title: "Electrical",
       subDomains: ["SD - 1", "SD - 2", "SD - 3", "SD - 4", "SD - 5"],
     },
     {
@@ -13,7 +13,7 @@ const Domain = () => {
       subDomains: ["SD - 1", "SD - 2", "SD - 3", "SD - 4", "SD - 5"],
     },
     {
-      title: "Robotics & Automation",
+      title: "Computer Science",
       subDomains: [
         "SD - 1",
         "SD - 2",

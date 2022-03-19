@@ -33,7 +33,6 @@ const About = () => {
           <Lottie
             animationData={animation}
             loop="1"
-            className=""
             style={animationStyles}
           />
           
